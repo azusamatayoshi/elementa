@@ -20,6 +20,6 @@ body {
 
 .col-9 {
   border: 2px solid #AFEEEE; /*PALETURQUOISE*/
-  
+  padding: 10px;
   background: #fff;
 }
