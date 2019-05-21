@@ -14,6 +14,10 @@ body {
   background: #FFE4E1; /*mistyrose*/
 }
 
+.wrapper {
+  width: 80%;
+}
+
 .row {
   margin-top: 10px;
 }
