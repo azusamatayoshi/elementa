@@ -1,6 +1,16 @@
 @charset: "utf-8";
 
+body {
+  background-color: #E6E6FA; /*lavender*/
+}
+
+
 h1 {
-border: 1px solid #000;
+border: 1px solid ##000080;
 padding: 20px;
+  background: #FFE4E1; /*mistyrose*/
+}
+
+.col-9 {
+  background: #AFEEEE; /*PALETURQUOISE*/
 }
