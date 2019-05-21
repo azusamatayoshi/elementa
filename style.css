@@ -6,8 +6,12 @@ body {
 
 
 h1 {
-border: 1px solid ##000080;
-padding: 20px;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  
+  border: 1px solid ##000080;
+  padding: 20px;
   background: #FFE4E1; /*mistyrose*/
 }
 
