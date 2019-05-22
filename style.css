@@ -158,7 +158,7 @@ summary {
  .orderedlist li details summary {
     display: none;
   }
-  .col {
+  .col a {
     font-size: smaller;
   }
 }
