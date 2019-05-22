@@ -16,6 +16,7 @@ body {
 .btn-primary {
   background: yellow;
   color: black;
+  border: 1px solid #999;
 }
 
 
