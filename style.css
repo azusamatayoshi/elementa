@@ -161,6 +161,11 @@ summary {
   .col a {
     font-size: smaller;
   }
+  col. {
+    height: 30px;
+    line-height: 30px;
+    padding: 3px;
+  }
 }
 
 footer {
