@@ -158,6 +158,9 @@ summary {
  .orderedlist li details summary {
     display: none;
   }
+  .col {
+    font-size: small;
+  }
 }
 
 footer {
