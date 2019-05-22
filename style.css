@@ -16,7 +16,9 @@ body {
 .btn-primary {
   background: yellow;
   color: black;
-  border: 1px solid #999;
+  border: 3px solid #999;
+  margin-right: 3px;
+  margin-bottom: 3px;
 }
 
 
@@ -106,34 +108,7 @@ background: radial-gradient(#fff,#FF8C00);
 }
 
 
-/*
-.explanation {
-  display: flex;
-  width: 70%;
-  margin: 0 auto;
-  background-color: #999;
-}
-.mark div p {
-  display: inline-block;
-}
-.box1 {
-  width: 25px;
-  height: 25px;
-  background: radial-gradient(#fff,#FFFF00);
-  border: 1px solid #999;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px #ccc;
-}
-  
-.box2 {
-    width: 25px;
-    height: 25px;
-    background: radial-gradient(#fff,#00FF00);
-    border: 1px solid #999;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px #ccc;
-}
-*/
+
 
 .second {
   display: flex;
