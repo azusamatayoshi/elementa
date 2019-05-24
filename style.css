@@ -13,6 +13,16 @@ body {
   color: #f00;
 }*/
 
+.col-12 {
+  background: yellow;
+}
+
+.col-8 {
+  border: 1px solid yellow;
+}
+
+
+
 .btn-primary {
   background: yellow;
   color: black;
