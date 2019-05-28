@@ -25,11 +25,11 @@ header {
 
 .tabletop {
   background-color: #ccccff;
-  text-align: center;
 }
   
 .tagname {
   font-size: 1.5em;
+  color: #4d2600;
 }
 
 
