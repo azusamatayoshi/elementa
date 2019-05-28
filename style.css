@@ -31,7 +31,10 @@ header {
   color: #4d2600;
 }
 
-
+dt {
+  background-color: #ccccff;
+  padding: 5px;
+}
 
 
 
