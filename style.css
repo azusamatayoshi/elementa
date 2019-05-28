@@ -31,9 +31,16 @@ header {
   color: #4d2600;
 }
 
+dl {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
 dt {
   background-color: #ccccff;
   padding: 5px;
+  font-size: 1.5em;
 }
 
 
