@@ -23,6 +23,11 @@ header {
   margin: 0 auto;
 }
 
+.tabletop {
+  background-color: #ccccff;
+  text-align: center;
+}
+  
 .tagname {
   font-size: 1.5em;
 }
