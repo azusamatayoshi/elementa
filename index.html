@@ -20,7 +20,7 @@
   <body>
     <header>
   
-    <h1>HTML elements</h1>
+    <h1>HTML tags</h1>
     <h2>Hello, world!</h2>
                                 
     </header>
@@ -30,28 +30,24 @@
     <tr>
       <th scope="col">tag</th>
       <th scope="col">description</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">related</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">&lt;a&gt;</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>ハイパーリンクにする要素</td>
+      <td>&lt;abbr&gt;</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="row">&lt;abbr&gt;</th>
+      <td>略語であることを示す要素</td>
+      <td>&lt;a&gt;</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <th scope="row">&lt;address&gt;</th>
+      <td>連絡先を示す要素</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -59,231 +55,7 @@
 
 
     
- <div class="container">
-  <div class="row">
-   
-    <!-- HTML modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#htmlModalScrollable">
-  html
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="htmlModalScrollable" tabindex="-1" role="dialog" aria-labelledby="htmlModalScrollableTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="htmlModalScrollableTitle">&lt;html&gt;&lt;/html&gt;</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Tells the browser that this is an HTML document.<br>Defines an HTML document. <br>All other elements must be descendants of this element.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a href="#"><button type="button" class="btn btn-primary">more info.</button></a>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-    <!-- BODY modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bodyModalScrollable">
-  body
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="bodyModalScrollable" tabindex="-1" role="dialog" aria-labelledby="bodyModalScrollableTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="bodyModalScrollableTitle">&lt;body&gt;&lt;/body&gt;</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Defines the document's body.<br>Represents the content of an HTML document. 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a href="#"><button type="button" class="btn btn-primary">more info.</button></a>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-    
-    
-    
-   <!-- <div class="col yellow"><a href="#">!DOCTYPE</a></div>-->
-    <div class="col yellow"><a href="#">html</a></div>
-    <div class="col yellow"><a href="#">head</a></div>
-    <div class="col yellow"><a href="#">title</a></div>
-    <div class="col yellow"><a href="#">body</a></div>
-    <div class="col yellow"><a href="#">h1..h6</a></div>
-    <div class="col yellow"><a href="#">p</a></div>
-    <div class="col yellow"><a href="#">br</a></div>
-  <!--  <div class="col yellow"><a href="#">!--...--</a></div>-->
-    <div class="col lightgreen"><a href="#">a</a></div>
-    
-  <!-- </div>
-   <div class="row"> -->
-    
-   <!-- <div class="w-100"></div> -->
-    
-    <div class="col lightgreen"><a href="#">link</a></div>
-    <div class="col lightgreen"><a href="#">nav</a></div>
-    <div class="col green"><a href="#">ul</a></div>
-    <div class="col green"><a href="#">ol</a></div>
-    <div class="col green"><a href="#">li</a></div>
-    <div class="col green"><a href="#">dl</a></div>
-    <div class="col green"><a href="#">dt</a></div>
-    <div class="col green"><a href="#">dd</a></div>
-    <div class="col blue"><a href="#">table</a></div>
-    <div class="col blue"><a href="#">caption</a></div>
-    
- <!-- </div>
-  <div class="row"> -->
-    
-  <!--  <div class="w-100"></div> -->
-    
-    <div class="col blue"><a href="#">th</a></div>
-    <div class="col blue"><a href="#">tr</a></div>              
-    <div class="col blue"><a href="#">td</a></div>
-    <div class="col blue"><a href="#">thead</a></div>
-    <div class="col blue"><a href="#">tbody</a></div>
-    <div class="col blue"><a href="#">tfoot</a></div>
-    <div class="col blue"><a href="#">col</a></div>
-    <div class="col blue"><a href="#">colgroup</a></div>
-    <div class="col pink"><a href="#">form</a></div>
-    <div class="col pink"><a href="#">input</a></div>
- <!-- </div>
-   
-  <div class="row">  -->                               
-    <div class="col pink"><a href="#">textarea</a></div>
-    <div class="col pink"><a href="#">button</a></div>
-    <div class="col pink"><a href="#">select</a></div>
-    <div class="col pink"><a href="#">optgroup</a></div>
-    <div class="col pink"><a href="#">option</a></div>
-    <div class="col pink"><a href="#">label</a></div>
-    <div class="col pink"><a href="#">fieldset</a></div>
-    <div class="col pink"><a href="#">legend</a></div>
-    <div class="col pink"><a href="#">datalist</a></div>
-    <div class="col pink"><a href="#">output</a></div>
-<!-- </div>
-   
-   <div class="row">  -->                               
-    <div class="col orange"><a href="#">img</a></div>
-    <div class="col orange"><a href="#">map</a></div>
-    <div class="col orange"><a href="#">area</a></div>
-    <div class="col orange"><a href="#">canvas</a></div>
-    <div class="col orange"><a href="#">figcaption</a></div>
-    <div class="col orange"><a href="#">figure</a></div>
-    <div class="col orange"><a href="#">picture</a></div>
-    <div class="col orange"><a href="#">svg</a></div>
-    <div class="col blueviolet"><a href="#">audio</a></div>
-    <div class="col blueviolet"><a href="#">source</a></div>
-<!-- </div>
-   
-   <div class="row"> -->                                
-    <div class="col blueviolet"><a href="#">track</a></div>
-    <div class="col blueviolet"><a href="#">video</a></div>
-    <div class="col orangered"><a href="#">iframe</a></div>
-    <div class="col aqua"><a href="#">style</a></div>
-    <div class="col aqua"><a href="#">div</a></div>
-    <div class="col aqua"><a href="#">span</a></div>
-    <div class="col aqua"><a href="#">header</a></div>
-    <div class="col aqua"><a href="#">footer</a></div>
-    <div class="col aqua"><a href="#">main</a></div>
-    <div class="col aqua"><a href="#">section</a></div>
-<!-- </div>
-   
-   <div class="row"> -->                                
-    <div class="col aqua"><a href="#">article</a></div>
-    <div class="col aqua"><a href="#">aside</a></div>
-    <div class="col aqua"><a href="#">details</a></div>
-    <div class="col aqua"><a href="#">dialog</a></div>
-    <div class="col aqua"><a href="#">summary</a></div>
-    <div class="col aqua"><a href="#">data</a></div>
-    <div class="col palepink"><a href="#">abbr</a></div>
-    <div class="col palepink"><a href="#">address</a></div>
-    <div class="col palepink"><a href="#">b</a></div>
-    <div class="col palepink"><a href="#">bdi</a></div>
-<!-- </div>
-   
-   <div class="row">  -->                               
-    <div class="col palepink"><a href="#">bdo</a></div>
-    <div class="col palepink"><a href="#">blockquote</a></div>
-    <div class="col palepink"><a href="#">cite</a></div>
-    <div class="col palepink"><a href="#">code</a></div>
-    <div class="col palepink"><a href="#">del</a></div>
-    <div class="col palepink"><a href="#">dfn</a></div>
-    <div class="col palepink"><a href="#">em</a></div>
-    <div class="col palepink"><a href="#">i</a></div>
-    <div class="col palepink"><a href="#">ins</a></div>
-    <div class="col palepink"><a href="#">kbd</a></div>
-<!-- </div>
-   
-   <div class="row">  -->                               
-    <div class="col palepink"><a href="#">mark</a></div>
-    <div class="col palepink"><a href="#">meter</a></div>
-    <div class="col palepink"><a href="#">pre</a></div>
-    <div class="col palepink"><a href="#">progress</a></div>
-    <div class="col palepink"><a href="#">q</a></div>
-    <div class="col palepink"><a href="#">rp</a></div>
-    <div class="col palepink"><a href="#">rt</a></div>
-    <div class="col palepink"><a href="#">ruby</a></div>
-    <div class="col palepink"><a href="#">s</a></div>
-    <div class="col palepink"><a href="#">samp</a></div>
-<!-- </div>
-   
-   <div class="row">  -->                               
-    <div class="col palepink"><a href="#">small</a></div>
-    <div class="col palepink"><a href="#">strong</a></div>
-    <div class="col palepink"><a href="#">sub</a></div>
-    <div class="col palepink"><a href="#">sup</a></div>
-    <div class="col palepink"><a href="#">template</a></div>
-    <div class="col palepink"><a href="#">time</a></div>
-    <div class="col palepink"><a href="#">u</a></div>
-    <div class="col palepink"><a href="#">var</a></div>
-    <div class="col palepink"><a href="#">wbr</a></div>
-    <div class="col brown"><a href="#">head</a></div>
-<!-- </div>
-   
-   <div class="row"> -->                                
-    <div class="col brown"><a href="#">meta</a></div>
-    <div class="col brown"><a href="#">base</a></div>
-    <div class="col dodgerblue"><a href="#">script</a></div>
-    <div class="col dodgerblue"><a href="#">noscript</a></div>
-    <div class="col dodgerblue"><a href="#">embed</a></div>
-    <div class="col dodgerblue"><a href="#">object</a></div>
-    <div class="col dodgerblue"><a href="#">param</a></div>
-    <div class="col "><a href="#"></a></div>
-    <div class="col "><a href="#"></a></div>
-    <div class="col "><a href="#"></a></div>
-</div>
-   
-  
-
-   
-   
-   <section class="second">
-    
-<!-- text -->
-     <div class="text">
-     <h2>HTML is...</h2>
-     <p>Hyper Text Markup Language.<br>
-       aaaaaaa aaaaa aaaaaa aaaaaa aaaaaa aaaaa aaaaaa aaaaaa aaaaaa aaaaa aaaaaa aaaaaa aaaaa aaaaa aaaaa aaaaa 
-       aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaaa aaaaaa aaaaaa aaaaa aaaaaa aaaaa aaaa aaaaa aaaaa 
-     </p>
-   </div>
- <!-- alphabetical list -->
-   <div class="list">
-   <!-- <h3>alphabetical list</h3> -->
+ 
     
      <ol class="orderedlist">
        
