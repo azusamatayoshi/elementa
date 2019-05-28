@@ -5,50 +5,10 @@ body {
   font-family: sans-serif;
 }
 
-/*a:link {
-  color: #000;
-}*/
-
-/*a:hover {
-  color: #f00;
-}*/
-
-.col-12 {
-  background: yellow;
-}
-
-.col-8 {
-  border: 1px solid yellow;
-}
 
 
 
-.btn-primary {
-  background: yellow;
-  color: black;
-  border: 3px solid #999;
-  margin-right: 3px;
-  margin-bottom: 3px;
-}
 
-
-.col a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  color: #000;
-  font-size: 1.2em;
-}
-
-.col a:hover {
-  color: #f00;
-}
-
-/*img {
-  width: 40px;
-  height: 40px;
-  margin: 20px auto;
-}*/
 
 header {
   margin: 20px auto;
@@ -58,101 +18,18 @@ header {
   width: 60%;
 }
 
-.col {
-/*  height: 60px;*/
-  text-align: center;
-  line-height: 60px;
-  border: 1px solid #999;
-  border-radius: 10px;
-  margin-right: 3px;
-  margin-bottom: 3px;
-  box-shadow: 3px 3px 3px #ccc;
-}
-
-.yellow {
-background: radial-gradient(#fff,#FFFF00);
-}
-
-.pink {
-  background: radial-gradient(#fff,#FF00FF);
-}
-  
-.green {
-  background: radial-gradient(#fff,#008000);
-}
-
-.lightgreen {
-  background: radial-gradient(#fff,#00FF00);
-}
-
-.dodgerblue {
-  background: radial-gradient(#fff,#1E90FF);
-}
-
-.blueviolet {
-  background: radial-gradient(#fff,#8A2BE2);
-}
-
-.orange {
-background: radial-gradient(#fff,#FF8C00);
-}
-
-.aqua {
-  background: radial-gradient(#fff,#00FFFF);
-}
-
-.orangered {
-  background: radial-gradient(#fff,#FF4500);
-}
-
-.palepink {
-  background: radial-gradient(#fff,#FFC0CB);
-}
-
-.brown {
-  background: radial-gradient(#fff,#8B4513);
-}
-
-.blue {
-  background: radial-gradient(#fff,#0000FF);
-}
-
-
-
-
-.second {
-  display: flex;
-  margin: 60px auto;
-  background-color: #FFFAFA;
-}
-    
-h3 {
-  padding: 20px;
-  /*background-color: pink;*/
-  border-bottom: 5px double #999;
-  border-top: 5px double #999;
-}
-
-
-.text {
+.table {
   width: 80%;
- /* background-color: #ff9;*/
-  padding: 20px;
+  color: #4d2600;
 }
 
-.text p {
-  padding-top: 30px;
-  padding-right: 30px;
-}
 
-.list {
-  width: 20%;
-  /*background-color: #ffc;*/
-}
 
-.orderedlist li {
-  list-style: none;
-}
+
+
+
+
+
 
 summary {
   border-bottom: 1px solid #999;
@@ -161,20 +38,11 @@ summary {
 
 
 @media screen and (max-width:768px) {
-  .second, .text, .list { 
+  .table {
     width: 100%;
-    display: block;
   }
- .orderedlist li details summary {
+  details summary {
     display: none;
-  }
-  .col a {
-    font-size: smaller;
-  }
-  col. {
-    height: 30px;
-    line-height: 30px;
-    padding: 3px;
   }
 }
 
